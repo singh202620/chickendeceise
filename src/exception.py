@@ -21,6 +21,7 @@ class CustomException(Exception):
 
 
 if __name__ == "__name__": 
+
     try:
         a = 1/0
     except Exception as e:
